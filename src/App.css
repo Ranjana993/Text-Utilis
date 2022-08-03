@@ -1,18 +1,26 @@
-.mode{
+.mode {
     display: flex;
     align-items: center;
     justify-content: space-between;
 
 }
-img{
-    height: 400px;
-    max-width: fit-content; 
+
+img {
+    height: fit-content;
+    max-width: fit-content;
     align-items: center;
 
 
 }
-.Navbar__links{
-display: flex;
-justify-content: center;
-/* margin-left: 3rem; */
+.nav__ul{
+    display: flex;
+    justify-content: space-evenly;
+}
+.Navbar__links {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    /* text-align: center; */
+    justify-content: space-between;
+    /* margin-left: 3rem; */
 }
