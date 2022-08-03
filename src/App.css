@@ -6,12 +6,13 @@
 }
 img{
     height: 400px;
-    width: 1000px;
+    max-width: fit-content; 
     align-items: center;
 
 
 }
 .Navbar__links{
 display: flex;
-justify-content: space-between;
+justify-content: center;
+/* margin-left: 3rem; */
 }
